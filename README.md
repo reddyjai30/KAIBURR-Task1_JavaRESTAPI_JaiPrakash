@@ -74,7 +74,7 @@ In my case I have created a database in mongoDb called as `JavaApiJai` so mine w
 spring.data.mongodb.uri=mongodb://localhost:27017/JavaApiJai
 ```
 
-<img width="500" alt="Screenshot 2024-01-12 at 12 13 11 PM" src="https://github.com/reddyjai30/KAIBURR-Task1_JavaRESTAPI_JaiPrakash/assets/47852931/b4ff2095-72d1-4903-bf07-ca38c38f82f1"> <img width="500" alt="Screenshot 2024-01-12 at 12 34 32 PM" src="https://github.com/reddyjai30/KAIBURR-Task1_JavaRESTAPI_JaiPrakash/assets/47852931/a52b62ff-c432-4fad-9fd7-3777c2111ca5">
+<img width="1000" alt="Screenshot 2024-01-12 at 12 13 11 PM" src="https://github.com/reddyjai30/KAIBURR-Task1_JavaRESTAPI_JaiPrakash/assets/47852931/b4ff2095-72d1-4903-bf07-ca38c38f82f1"> <img width="1000" alt="Screenshot 2024-01-12 at 12 34 32 PM" src="https://github.com/reddyjai30/KAIBURR-Task1_JavaRESTAPI_JaiPrakash/assets/47852931/a52b62ff-c432-4fad-9fd7-3777c2111ca5">
 
 
 ### Developing the Application
@@ -411,14 +411,14 @@ Once you've completed the development and build process, the next step is to run
 - **Endpoint**: `DELETE /tasks/{id}`
 - **Description**: Deletes a task by its ID.
   
-<img width="500" alt="Screenshot 2024-01-12 at 2 23 25 PM" src="https://github.com/reddyjai30/KAIBURR-Task1_JavaRESTAPI_JaiPrakash/assets/47852931/c281d15a-aac1-4c2d-ac22-543ec29d3d0a"> <img width="500" alt="Screenshot 2024-01-12 at 2 25 37 PM" src="https://github.com/reddyjai30/KAIBURR-Task1_JavaRESTAPI_JaiPrakash/assets/47852931/7f1ccfa3-f491-4191-a1d9-5d959dfdf2df">
+<img width="1000" alt="Screenshot 2024-01-12 at 2 23 25 PM" src="https://github.com/reddyjai30/KAIBURR-Task1_JavaRESTAPI_JaiPrakash/assets/47852931/c281d15a-aac1-4c2d-ac22-543ec29d3d0a"> <img width="1000" alt="Screenshot 2024-01-12 at 2 25 37 PM" src="https://github.com/reddyjai30/KAIBURR-Task1_JavaRESTAPI_JaiPrakash/assets/47852931/7f1ccfa3-f491-4191-a1d9-5d959dfdf2df">
 
 ### 5. Find Tasks by Name
 
 - **Endpoint**: `GET /tasks/search/byName`
 - **Description**: Finds tasks by their name.
   
-<img width="500" alt="Screenshot 2024-01-12 at 2 33 13 PM" src="https://github.com/reddyjai30/KAIBURR-Task1_JavaRESTAPI_JaiPrakash/assets/47852931/82be6297-e725-4b9a-9046-379bf3875685"> <img width="500" alt="Screenshot 2024-01-12 at 2 35 39 PM" src="https://github.com/reddyjai30/KAIBURR-Task1_JavaRESTAPI_JaiPrakash/assets/47852931/8eacffba-b204-4303-87aa-98b4efe23968">
+<img width="1000" alt="Screenshot 2024-01-12 at 2 33 13 PM" src="https://github.com/reddyjai30/KAIBURR-Task1_JavaRESTAPI_JaiPrakash/assets/47852931/82be6297-e725-4b9a-9046-379bf3875685"> <img width="1000" alt="Screenshot 2024-01-12 at 2 35 39 PM" src="https://github.com/reddyjai30/KAIBURR-Task1_JavaRESTAPI_JaiPrakash/assets/47852931/8eacffba-b204-4303-87aa-98b4efe23968">
 
 
 ### 6. Find Tasks by Name
@@ -426,7 +426,7 @@ Once you've completed the development and build process, the next step is to run
 - **Endpoint**: `GET /tasks/search/byAssignee`
 - **Description**: Finds the first 10 tasks assigned to a specific assignee.
   
-  <img width="500" alt="Screenshot 2024-01-12 at 2 37 58 PM" src="https://github.com/reddyjai30/KAIBURR-Task1_JavaRESTAPI_JaiPrakash/assets/47852931/a63d566e-bede-4a35-a00a-2038ec36ea70"> <img width="500" alt="Screenshot 2024-01-12 at 2 38 43 PM" src="https://github.com/reddyjai30/KAIBURR-Task1_JavaRESTAPI_JaiPrakash/assets/47852931/221c42ae-cb51-4f88-89a0-f3c6863e7e78">
+  <img width="1000" alt="Screenshot 2024-01-12 at 2 37 58 PM" src="https://github.com/reddyjai30/KAIBURR-Task1_JavaRESTAPI_JaiPrakash/assets/47852931/a63d566e-bede-4a35-a00a-2038ec36ea70"> <img width="1000" alt="Screenshot 2024-01-12 at 2 38 43 PM" src="https://github.com/reddyjai30/KAIBURR-Task1_JavaRESTAPI_JaiPrakash/assets/47852931/221c42ae-cb51-4f88-89a0-f3c6863e7e78">
 
 
 

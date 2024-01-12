@@ -366,17 +366,67 @@ Once you've completed the development and build process, the next step is to run
 
   Once the application is running, it should be accessible on the default port, which is typically 8080, unless specified otherwise in the    application.properties file.
   - You can verify that the application is running correctly by opening a web browser and navigating to http://localhost:8080.
-    <img width="800" alt="Screenshot 2024-01-12 at 1 24 01 PM" src="https://github.com/reddyjai30/KAIBURR-Task1_JavaRESTAPI_JaiPrakash/assets/47852931/baa95953-a3f3-408b-b082-dfcdd5d59fde">
+    
+    <img width="1000" alt="Screenshot 2024-01-12 at 1 24 01 PM" src="https://github.com/reddyjai30/KAIBURR-Task1_JavaRESTAPI_JaiPrakash/assets/47852931/baa95953-a3f3-408b-b082-dfcdd5d59fde">
 
   - Alternatively, you can use Postman to send a request to the application and check the response.
-    <img width="500" alt="Screenshot 2024-01-12 at 1 51 12 PM" src="https://github.com/reddyjai30/KAIBURR-Task1_JavaRESTAPI_JaiPrakash/assets/47852931/0923e3b4-6373-4a6e-874b-7c50a4095ae6"> <img width="500" alt="Screenshot 2024-01-12 at 1 51 49 PM" src="https://github.com/reddyjai30/KAIBURR-Task1_JavaRESTAPI_JaiPrakash/assets/47852931/6b62c85c-bc9e-404f-8237-7632e5c0e581">
+    
+    <img width="1000" alt="Screenshot 2024-01-12 at 1 59 15 PM" src="https://github.com/reddyjai30/KAIBURR-Task1_JavaRESTAPI_JaiPrakash/assets/47852931/29107f2b-375c-4d30-9474-af0dbc670e8b">
+    <img width="1000" alt="Screenshot 2024-01-12 at 1 59 39 PM" src="https://github.com/reddyjai30/KAIBURR-Task1_JavaRESTAPI_JaiPrakash/assets/47852931/f4f76e08-5492-43f8-ba0d-57ea6596839b">
 
 
   - After sending the request (`PUT`) then the request gets stored in the mongoDb database too.
-    <img width="1000" alt="Screenshot 2024-01-12 at 1 52 23 PM" src="https://github.com/reddyjai30/KAIBURR-Task1_JavaRESTAPI_JaiPrakash/assets/47852931/7f92cb05-3fab-4dd2-ae22-7c65a1625830">
+    
+    <img width="1000" alt="Screenshot 2024-01-12 at 1 59 59 PM" src="https://github.com/reddyjai30/KAIBURR-Task1_JavaRESTAPI_JaiPrakash/assets/47852931/50a7b293-dc22-415a-ad13-2c67f33772df">
 
 
+## Testing the Java Api EndPoints
+ I have given 12 random inputs and lets them all, this provides instructions for testing the Task API endpoints using Postman. The API is designed in Spring   Boot and handles various operations  related to `Task` objects.
 
+ ### 1. Retrieve All Tasks
+
+- **Endpoint**: `GET /tasks`
+- **Description**: Retrieves all tasks.
   
+<img width="1000" alt="Screenshot 2024-01-12 at 2 16 35 PM" src="https://github.com/reddyjai30/KAIBURR-Task1_JavaRESTAPI_JaiPrakash/assets/47852931/acad7bb2-a766-4f2b-bbd0-1e6e6c7f1bf8">
+
+ ### 2. Retrieve a Specific Task by ID
+
+- **Endpoint**: `GET /tasks/{id}`
+- **Description**: Retrieves a task by its ID.
+
+<img width="1000" alt="Screenshot 2024-01-12 at 2 26 28 PM" src="https://github.com/reddyjai30/KAIBURR-Task1_JavaRESTAPI_JaiPrakash/assets/47852931/aa8b775e-d8c0-459e-b4be-f6777e2de3f5">
+
+
+### 3. Create or Update a Task
+
+- **Endpoint**: `PUT /tasks`
+- **Description**: Creates a new task or updates an existing one.
+
+<img width="1000" alt="Screenshot 2024-01-12 at 2 25 04 PM" src="https://github.com/reddyjai30/KAIBURR-Task1_JavaRESTAPI_JaiPrakash/assets/47852931/cd9c6aae-6e59-4c2c-9c1b-d0bb6c8950f9">
+
+
+### 4. Delete a Task by ID
+
+- **Endpoint**: `DELETE /tasks/{id}`
+- **Description**: Deletes a task by its ID.
+  
+<img width="500" alt="Screenshot 2024-01-12 at 2 23 25 PM" src="https://github.com/reddyjai30/KAIBURR-Task1_JavaRESTAPI_JaiPrakash/assets/47852931/c281d15a-aac1-4c2d-ac22-543ec29d3d0a"> <img width="500" alt="Screenshot 2024-01-12 at 2 25 37 PM" src="https://github.com/reddyjai30/KAIBURR-Task1_JavaRESTAPI_JaiPrakash/assets/47852931/7f1ccfa3-f491-4191-a1d9-5d959dfdf2df">
+
+### 5. Find Tasks by Name
+
+- **Endpoint**: `GET /tasks/search/byName`
+- **Description**: Finds tasks by their name.
+  
+<img width="500" alt="Screenshot 2024-01-12 at 2 33 13 PM" src="https://github.com/reddyjai30/KAIBURR-Task1_JavaRESTAPI_JaiPrakash/assets/47852931/82be6297-e725-4b9a-9046-379bf3875685"> <img width="500" alt="Screenshot 2024-01-12 at 2 35 39 PM" src="https://github.com/reddyjai30/KAIBURR-Task1_JavaRESTAPI_JaiPrakash/assets/47852931/8eacffba-b204-4303-87aa-98b4efe23968">
+
+
+### 6. Find Tasks by Name
+
+- **Endpoint**: `GET /tasks/search/byAssignee`
+- **Description**: Finds the first 10 tasks assigned to a specific assignee.
+  
+  <img width="500" alt="Screenshot 2024-01-12 at 2 37 58 PM" src="https://github.com/reddyjai30/KAIBURR-Task1_JavaRESTAPI_JaiPrakash/assets/47852931/a63d566e-bede-4a35-a00a-2038ec36ea70"> <img width="500" alt="Screenshot 2024-01-12 at 2 38 43 PM" src="https://github.com/reddyjai30/KAIBURR-Task1_JavaRESTAPI_JaiPrakash/assets/47852931/221c42ae-cb51-4f88-89a0-f3c6863e7e78">
+
 
 
